@@ -28,6 +28,13 @@ Para instalar os requisitos do projeto:
 ```
 pip install -r requirements.txt
 ```
+
+# Login 
+Para logar deve criar o superuser:
+```
+python manage.py createsuperuser
+```
+
 # Execução 
 ```
 python manage.py runserver
